@@ -1,7 +1,5 @@
 def Yellow_Red_YN(card, number, n_list):
-    if card == 1:
-        return True
-    elif card == 2:
+    if card == 1 or card == 2:
         return True
     else:
         if n_list[number] < 2:
